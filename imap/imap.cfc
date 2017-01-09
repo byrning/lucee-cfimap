@@ -60,7 +60,7 @@ component output="false" accessors="true" singleton {
 				querySetCell(list, "fullname", folders[index].getFullName());
 				querySetCell(list, "name", folders[index].getName());
 				querySetCell(list, "new", folders[index].getNewMessageCount());
-				querySetCell(list, "parent", folders[index].getParent().getName());
+				querySetCell(list, "parent", folders[index].getParent().getFullName());
 				querySetCell(list, "unread", folders[index].getUnreadMessageCount());
 				querySetCell(list, "totalmessages", folders[index].getMessageCount());
 			}
